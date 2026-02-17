@@ -1,0 +1,13 @@
+# Copy to terraform.tfvars and fill in values
+# terraform.tfvars is gitignored
+
+aws_region   = "us-east-1"
+project_name = "extraction-job-api"
+
+db_username = "postgres"
+db_password = "CHANGE_ME_STRONG_PASSWORD"
+db_name     = "extraction_jobs"
+
+auth0_domain   = "dev-wkl17exhgoi6mj0m.us.auth0.com"
+auth0_audience = "https://dev-wkl17exhgoi6mj0m.us.auth0.com/api/v2/"
+auth_disabled  = "0"
